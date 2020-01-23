@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SliceTest</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SliceModule">
+      <HintPath>..\Slice\bin\Debug\netcoreapp3.1\SliceModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
