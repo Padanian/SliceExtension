@@ -3,6 +3,25 @@
   <PropertyGroup>
     <RootNamespace>SliceClass</RootNamespace>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Alessandro Mandelli</Authors>
+    <Description>The Slice() method returns the selected elements in an array, as a new array object.
+The Slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+Note: The original array will not be changed.</Description>
+    <Copyright>Alessandro Mandelli</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Padanian/SliceExtension.git</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>First release to public</PackageReleaseNotes>
+    <PackageLicenseFile>lgpl-3.0.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="lgpl-3.0.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
